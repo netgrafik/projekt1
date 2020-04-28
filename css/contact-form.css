@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+	padding-top:50px;
 }
 
 @media(max-width:767px) {
@@ -82,13 +83,13 @@
 }
 
 .contact-form__field::placeholder {
-    color: #777;
+    color: #ECECEC;
     text-transform: uppercase;
 }
 
 .contact-form__submit-button {
     display: block;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 30px auto;
     border: none;
     background: white;
     padding: 20px 30px;
