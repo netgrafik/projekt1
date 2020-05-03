@@ -9,8 +9,7 @@
 }
 
 .main-navigation__logo-image {
-    width: 70px;
-    margin-right: 20px;
+    width: 70px;   
 }
 
 @media(max-width: 991px) {
@@ -34,6 +33,7 @@
     display: flex;
     align-items: center;
     font-size: 35px;
+	font-family:"Coda";
 }
 
 @media(max-width: 991px) {
