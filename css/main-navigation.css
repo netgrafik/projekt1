@@ -9,13 +9,14 @@
 }
 
 .main-navigation__logo-image {
-    width: 70px;   
+    width: 70px;
+	margin:0px;
 }
 
 @media(max-width: 991px) {
     .main-navigation__logo-image {
         width: 40px;
-        margin-right: 10px;
+        margin-right: 0px;
     }
 }
 
@@ -33,7 +34,6 @@
     display: flex;
     align-items: center;
     font-size: 35px;
-	font-family:"Coda";
 }
 
 @media(max-width: 991px) {
@@ -69,7 +69,7 @@
 
 @media(max-width: 991px) {
     .main-navigation__menu--open {
-        opacity: 1;
+        opacity: 0.88;
         pointer-events: unset;
     }
 }
